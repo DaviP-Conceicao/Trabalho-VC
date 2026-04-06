@@ -1,0 +1,49 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+# Environment variables e credenciais
+.env
+.env.local
+.env.*.local
+config/.env
+config/*.env
+*.key
+*.pem
+credentials.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Logs
+*.log
+logs/
+
+
+# Dados temporários ou sensíveis
+data/temp/
+data/*.csv
+data/*.xlsx
+*.tmp
+/data
+/config
+
+# Backup files
+*.bak
+*.backup
