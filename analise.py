@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-caminho = 'imagem.jpg'
+caminho = 'imagem21.jpg'
 img_colorida = cv2.imread(caminho)
 
 if img_colorida is None:
