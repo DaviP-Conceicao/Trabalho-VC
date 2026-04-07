@@ -6,6 +6,7 @@ import os
 # carregado imagens (Ajustar caminhos se necessario)
 caminho_img = 'imagem21.jpg'
 caminho_gt = '/home/paulinodavi/Downloads/Trabalho/21_manual1.gif'
+caminho_gt = '21_manual1.gif'
 
 img_colorida = cv2.imread(caminho_img)
 

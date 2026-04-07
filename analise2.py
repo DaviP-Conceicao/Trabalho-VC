@@ -68,8 +68,7 @@ gammas = [0.5, 1.2, 2.0]
 cores = ['red', 'orange', 'darkred']
 
 for gamma, cor in zip(gammas, cores):
-    img_gamma = c * (img_norm ** gamma)  # c=1 aqui, pois já normalizado
-    img_gamma = img_gamma * 255.0
+    img_gamma = (img_norm ** gamma) * 255.0
     plot_resultado(img_verde, img_gamma, f'Gama γ={gamma}', cor)
 
 # ============================================
