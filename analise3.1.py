@@ -18,9 +18,10 @@ img_clahe = clahe.apply(img_verde)
 # ============================================
 # APLICAR LIMIARIZAÇÃO SIMPLES
 # ============================================
-# Limiar fixo
 limiar = 127
-_, mascara_binaria = cv2.threshold(img_clahe, limiar, 255, cv2.THRESH_BINARY)
+
+# CORREÇÃO: THRESH_BINARY_INV para que vasos escuros fiquem brancos na máscara
+_, mascara_binaria = cv2.threshold(img_clahe, limiar, 255, cv2.THRESH_BINARY_INV)
 
 # ============================================
 # EXIBIR RESULTADOS
