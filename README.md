@@ -20,7 +20,7 @@ A segmentação de vasos sanguíneos da retina é fundamental para identificar d
 ---
 
 ## 🎬 Processo em Execução
-Para facilitar a visualização do pipeline de processamento, criamos uma animação que demonstra a transição entre as etapas:
+Para facilitar a visualização do pipeline de processamento, uma animação que demonstra a transição entre as etapas:
 
 <p align="center">
   <img src="./img/pipeliner.gif" alt="Pipeline de Processamento" width="600px">
